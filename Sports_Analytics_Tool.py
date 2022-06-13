@@ -10,7 +10,6 @@ from st_aggrid import AgGrid, GridOptionsBuilder
 import plotly.express as px
 import plotly.graph_objects as go
 
-from django.forms import NumberInput
 import numpy as np
 
 import matplotlib.pyplot as plt
