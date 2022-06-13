@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jun  8 16:15:10 2022
+Group 15
 
-@author: bingbing
 """
 
 import streamlit as st
