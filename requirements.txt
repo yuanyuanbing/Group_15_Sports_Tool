@@ -4,3 +4,4 @@ plotly
 pandas
 sklearn
 matplotlib
+openpyxl
