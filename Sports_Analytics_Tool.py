@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Group 15
+Created on Wed Jun  8 16:15:10 2022
 
+@author: bingbing
 """
 
 import streamlit as st
@@ -119,9 +120,9 @@ def initPositionSelection():
 
 def getConfigure(position):
     forwardConf = ['Goals per match', 'Shooting accuracy', 'Big chances missed per match', 'Assists per match', 'Big chances created per match']
-    midfielderConf = ['Goals per match', 'Shooting accuracy', 'Big chances missed per match', 'Tackle success %', 'Successful 50/50s per match', 'Assists per match', 'Big chances created per match', 'Passes per match', 'Accurate long balls per match']
-    defenderConf = ['Goals conceded per match', 'Tackle success %', 'Successful 50/50s per match', 'Big chances created per match', 'Accurate long balls per match']
-    goalkeeperConf = ['Goals conceded per match', 'Saves per match', 'Penalties saved per match']
+    midfielderConf = ['Goals per match', 'Shooting accuracy', 'Big chances missed per match', 'Tackle success', 'Successful 50/50s per match', 'Assists per match', 'Big chances created per match', 'Passes per match', 'Accurate long balls per match']
+    defenderConf = ['Goals conceded per match', 'Tackle success', 'Successful 50/50s per match', 'Big chances created per match', 'Accurate long balls per match']
+    goalkeeperConf = ['Goals conceded  per match', 'Saves per match', 'Penalties saved per match']
     conf = []
 
     if position == 'Forward':
@@ -2529,9 +2530,9 @@ if __name__=="__main__":
     if side_opt == 'Descriptive':
        initClubSelection()
        drawClusteredColumn()
-       initPositionSelection()
+       initPositionSelection()     
     if side_opt == 'Predictive':
-       predictive()
+       predictive()   
     if side_opt == 'Prescriptive':
        find_alternative()
 
