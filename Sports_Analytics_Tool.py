@@ -119,8 +119,8 @@ def initPositionSelection():
 
 def getConfigure(position):
     forwardConf = ['Goals per match', 'Shooting accuracy', 'Big chances missed per match', 'Assists per match', 'Big chances created per match']
-    midfielderConf = ['Goals per match', 'Shooting accuracy', 'Big chances missed per match', 'Tackle success', 'Successful 50/50s per match', 'Assists per match', 'Big chances created per match', 'Passes per match', 'Accurate long balls per match']
-    defenderConf = ['Goals conceded per match', 'Tackle success', 'Successful 50/50s per match', 'Big chances created per match', 'Accurate long balls per match']
+    midfielderConf = ['Goals per match', 'Shooting accuracy', 'Big chances missed per match', 'Tackle success %', 'Successful 50/50s per match', 'Assists per match', 'Big chances created per match', 'Passes per match', 'Accurate long balls per match']
+    defenderConf = ['Goals conceded per match', 'Tackle success %', 'Successful 50/50s per match', 'Big chances created per match', 'Accurate long balls per match']
     goalkeeperConf = ['Goals conceded  per match', 'Saves per match', 'Penalties saved per match']
     conf = []
 
